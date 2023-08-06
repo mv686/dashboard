@@ -22,7 +22,7 @@ layout = html.Div([
     dcc.Dropdown(
     id='pie-chart-country',
     options=[{'label': i, 'value': i} for i in df['Country Name'].unique()],
-    value = "United Kingdom of Great Britain and Northern Ireland",
+    value = "United Kingdom",
     multi = False,
     persistence = True,
     persistence_type = "memory",

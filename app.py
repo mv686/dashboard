@@ -10,6 +10,10 @@ df = pd.read_csv('processed_web.csv')
 
 df_map = df[(df["Age Group"] == "[All]") & (df["Sex"] == "All")]
 
+hdi_df = pd.read_csv('hdi_web.csv')
+
+hdi_map = hdi_df[(hdi_df["Sex"] == "All")]
+
 # Open the GeoJSON file and load it into a Python dictionary
 with open('map.geo.json', 'r', encoding='utf-8') as f:
     map_geojson = json.load(f)

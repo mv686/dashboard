@@ -4,10 +4,12 @@ from app import app
 import map_page
 import graph_page
 import chart_page
+import hdi_page
 
 # Main layout
-app.layout = html.Div([
-    html.H1('INTERACTIVE DASHBOARD', style={'textAlign': 'center', 'paddingBottom': '30px'}),
+app.layout = html.Div(children = [
+    html.Div(className = "bgcolors",children = [
+    html.H1('INTERACTIVE DASHBOARD', style={ 'color':'#ffffff', 'display': 'inline-block', "width" : '50%', 'alignItems': 'center', 'textAlign': 'center',}),
 
     html.Div([
         dcc.Link(
@@ -19,8 +21,12 @@ app.layout = html.Div([
             href = "/graph"),
         dcc.Link(
         html.Button('Chart', id='chart-button', className='myButton'), 
-            href = "/chart")
-    ], style={'display': 'flex', 'justifyContent': 'center', 'paddingBottom': '30px'}),
+            href = "/chart"),
+        dcc.Link(
+        html.Button('HDI', id='hdi-button', className='myButton'), 
+            href = "/hdi")
+    ], style={'display': 'inline-block', "width" : '50%', 'alignItems': 'center','justifyContent': 'center', 'textAlign': 'center',})
+    ]),
 
     dcc.Location(id='url', refresh=True),
 
@@ -39,6 +45,8 @@ def display_page(pathname):
         return graph_page.layout
     elif pathname == '/chart':
         return chart_page.layout
+    elif pathname == '/hdi':
+        return hdi_page.layout
     else:
         return map_page.layout  # This makes map page default 
     

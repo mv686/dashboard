@@ -7,8 +7,8 @@ from app import app,df,df_map,map_geojson
 
 
 # Create a layout for the application
-layout = html.Div([
-    html.Label('Select Year:', style={'fontSize': '20px', 'marginBottom': '10px'}),
+layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
+    html.Label('Select Year:', style={'fontSize': '20px', 'marginBottom': '10px', 'marginLeft': '47%'}),
     dcc.Slider(
         id='year-slider',
         min=df['Year'].min(),
@@ -19,27 +19,33 @@ layout = html.Div([
         updatemode='drag',
         included = False
     ),
+    html.Div(children = [
+    html.Div(style={'width' : "50%",'marginBottom': '10px','display': 'inline-block', 'alignItems': 'center', 'textAlign': 'center'}, children = [
     html.Label('Select Countries (optional: if no countries are selected all available data is displayed)', style={'fontSize': '20px'}),
     dcc.Dropdown(
     id='country-dropdown',
     options=[{'label': i, 'value': i} for i in df['Country Name'].unique()],
     multi = True,
     persistence = True,
-    persistence_type = "memory",
-    style={'width' : "50%",'marginBottom': '10px'}
-    ),
+    persistence_type = "memory"
+    
+    )
+    ]),
     dcc.RadioItems(
         id='count_or_rate',
         options=[{'label': i, 'value': i} for i in ['Number', 'Death rate per 100 000 population']],
         value='Number',
-        style={'marginBottom': '10px'}
-    ),
+        style={'display': 'inline-block', "width" : '50%', 'PaddingTop': '30px', 'textAlign': 'center',}
+    )
+    ]),
+
     dcc.Graph(id='map', config={"displayModeBar" : False}),
 
     html.Div(style={'display': 'flex', 'alignItems': 'center','justifyContent': 'center', 'marginTop': '20px', 'textAlign': 'center', 'fontSize': '20px'}, children=[
     html.Div(style={'width': '20px', 'height': '20px', 'backgroundColor': 'white', 'border': '1px solid black'}),
     html.Span(' Data for these countries is not available', style={'marginLeft': '10px'})
     ])
+
 ])
 
 # Create a callback for the map
@@ -83,6 +89,7 @@ def update_map(year, selected_countries, count_or_rate):
         
     )
 
-    figure.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0}, uirevision = "constant")
+    figure.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
+                         paper_bgcolor= '#D4DADA',uirevision = "constant")
 
     return figure
