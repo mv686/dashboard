@@ -8,7 +8,8 @@ from app import app,df,df_map,map_geojson
 
 # Create a layout for the application
 layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
-    html.Label('Select Year:', style={'fontSize': '20px', 'marginBottom': '10px', 'marginLeft': '47%'}),
+    html.H1('This map shows world suicide data', style={'padding': '15px',"backgroundColor" : '#D4DADA','textAlign': 'center', 'margin':'0'}),
+    html.H2('Select Year:', style={'fontSize': '20px', 'textAlign': 'center', 'margin':'0'}),
     dcc.Slider(
         id='year-slider',
         min=df['Year'].min(),
@@ -21,7 +22,7 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
     ),
     html.Div(children = [
     html.Div(style={'width' : "50%",'marginBottom': '10px','display': 'inline-block', 'alignItems': 'center', 'textAlign': 'center'}, children = [
-    html.Label('Select Countries (optional: if no countries are selected all available data is displayed)', style={'fontSize': '20px'}),
+    html.H2('Select Countries (optional: if no countries are selected all available data is displayed)', style={'fontSize': '20px','margin':'0','textAlign': 'center','padding': '5px'}),
     dcc.Dropdown(
     id='country-dropdown',
     options=[{'label': i, 'value': i} for i in df['Country Name'].unique()],
@@ -35,7 +36,7 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
         id='count_or_rate',
         options=[{'label': i, 'value': i} for i in ['Number', 'Death rate per 100 000 population']],
         value='Number',
-        style={'display': 'inline-block', "width" : '50%', 'PaddingTop': '30px', 'textAlign': 'center',}
+        style={'display': 'inline-block', "width" : '50%', 'margin':'0', 'textAlign': 'center'}
     )
     ]),
 
@@ -77,12 +78,12 @@ def update_map(year, selected_countries, count_or_rate):
         labels={
             'Number': 'Number',
             'Death rate per 100 000 population': 'Per 100K'
-        }, 
+        },
         center={'lat': 45, 'lon': 0},  # Initial geographical center point
         mapbox_style='carto-positron',  # Mapbox style
         zoom=2,  # Initial zoom level
         color = count_or_rate,
-        color_continuous_scale="bluered",
+        color_continuous_scale="viridis",
         range_color = (min_value,max_value),
         opacity = 0.4,
         height=700
@@ -90,6 +91,6 @@ def update_map(year, selected_countries, count_or_rate):
     )
 
     figure.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
-                         paper_bgcolor= '#D4DADA',uirevision = "constant")
+                         paper_bgcolor= '#D4DADA', uirevision = "constant")
 
     return figure

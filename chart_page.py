@@ -2,11 +2,11 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
-from app import app,df
+from app import app,df,hdi_df
 
 
 # Create a layout for the application
-layout = html.Div([
+layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
     html.Label('Select Year:', style={'fontSize': '20px', 'marginBottom': '10px'}),
     dcc.Slider(
         id='pie-chart-year-slider',
@@ -29,16 +29,27 @@ layout = html.Div([
     style={'width' : "50%",'marginBottom': '10px'}
     ),
         dcc.Graph(id='bar-all-chart', config={"displayModeBar" : False}),
-        dcc.Graph(id='pie-chart', config={"displayModeBar" : False}),
+        html.Div(children = [
+    dcc.Graph(id='pie-chart', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '50%'}),
+    dcc.Graph(id='bar-chart-hdi', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '50%'})
+        ]),
+        
         dcc.Graph(id='bar-chart', config={"displayModeBar" : False})
 ])
 
 
 
+# Define a color mapping for the categories
+color_mapping = {
+    "Male": px.colors.qualitative.Plotly[0],
+    "Female": px.colors.qualitative.Plotly[1]
+}
+
 
 @app.callback(
     Output('bar-all-chart', 'figure'),
     Output('pie-chart', 'figure'),
+    Output('bar-chart-hdi', 'figure'),
     Output('bar-chart', 'figure'),
     Input('pie-chart-year-slider', 'value'),
     Input('pie-chart-country', 'value')
@@ -52,17 +63,32 @@ def update_charts(selected_year, selected_country):
     dff = df[(df['Year'] == selected_year) & (df['Country Name'] == selected_country) & (df["Sex"].isin(sex_list)) & (df["Age Group"].isin(age_group_list))]
     dff_bar = df[(df['Year'] == selected_year) & (df['Country Name'] == selected_country) & (df["Sex"] == "All") & (df["Age Group"].isin(age_group_list))]
 
-    bar_chart_all_fig = px.bar(dff_bar, x='Age Group', y='Number', title='Distribution by Age Group',   
+    dff_hdi = hdi_df[(hdi_df['Year'] == selected_year) & (hdi_df['Country Name'] == selected_country) & (hdi_df["Sex"].isin(sex_list))]
+
+    bar_chart_all_fig = px.bar(dff_bar, x='Age Group', y='Number',color_discrete_sequence=[px.colors.qualitative.Plotly[2]], text_auto=True,
                                category_orders={'Age Group': ['[5-9]', '[10-14]', '[15-19]', '[20-24]',
                                    '[25-29]', '[30-34]', '[35-39]', '[40-44]', '[45-49]', '[50-54]',
                                    '[55-59]', '[60-64]', '[65-69]', '[70-74]', '[75-79]', '[80-84]',
                                    '[85+]', '[Unknown]']})
 
 
-    pie_figure = px.pie(dff, names='Sex', values='Number')
+    # Calculate the total count for the "total" bar
+    total_count = int(dff_bar['Number'].sum())
 
-    pie_figure.update_layout(title={
-    'text': '<b>Distribution by Sex</b>',
+    # Add a single annotation for the total count
+    bar_chart_all_fig.add_annotation(
+    x=2, y=dff_bar['Number'].max(),
+    text=f'Total: {total_count}',
+    showarrow=False,
+    font=dict(size=25, color='black'),  # Modify font properties
+    xanchor='right',  # Anchor the annotation to the left side
+    align='right'  # Align the annotation to the right of the bar
+    )
+
+    pie_figure = px.pie(dff, names='Sex', values='Number',color_discrete_map=color_mapping)
+
+    pie_figure.update_layout(showlegend = False, title={
+    'text': '<b>Suicide distribution by Sex</b>',
     'y':1,
     'x':0.48,
     'xanchor': 'center',
@@ -71,7 +97,22 @@ def update_charts(selected_year, selected_country):
         'size': 20,
         'color': 'black',
         'family': 'Arial, sans-serif'
-    }})
+    }},paper_bgcolor= '#D4DADA')
+
+    hdi_bar_figure = px.bar(dff_hdi, x='Sex', y='hdi',color='Sex', color_discrete_map=color_mapping, text_auto=True)
+
+    hdi_bar_figure.update_layout(bargap=0.8, bargroupgap=0.2,title={
+    'text': '<b>HDI by Sex</b>',
+    'y':1,
+    'x':0.48,
+    'xanchor': 'center',
+    'yanchor': 'top',
+    'font':{
+        'size': 20,
+        'color': 'black',
+        'family': 'Arial, sans-serif'
+    }},paper_bgcolor= '#D4DADA')
+
 
     bar_chart_sex_fig = px.bar(dff, x='Age Group', y='Number', color = "Sex", facet_col='Sex', title='Distribution by Age Group and Sex',    
                                     category_orders={'Age Group': ['[5-9]', '[10-14]', '[15-19]', '[20-24]',
@@ -80,7 +121,7 @@ def update_charts(selected_year, selected_country):
                                    '[85+]', '[Unknown]']})
 
     bar_chart_all_fig.update_layout(title={
-    'text': '<b>Distribution by Age Group</b>',
+    'text': '<b>Suicide count distribution by Age Group</b>',
     'y':1,
     'x':0.48,
     'xanchor': 'center',
@@ -89,10 +130,10 @@ def update_charts(selected_year, selected_country):
         'size': 20,
         'color': 'black',
         'family': 'Arial, sans-serif'
-    }})
+    }},paper_bgcolor= '#D4DADA')
     
     bar_chart_sex_fig.update_layout(title={
-    'text': '<b>Distribution by Age Group and Sex</b>',
+    'text': '<b>Suicide distribution by Age Group and Sex</b>',
     'y':1,
     'x':0.48,
     'xanchor': 'center',
@@ -101,6 +142,6 @@ def update_charts(selected_year, selected_country):
         'size': 20,
         'color': 'black',
         'family': 'Arial, sans-serif'
-    }})
+    }},paper_bgcolor= '#D4DADA')
 
-    return bar_chart_all_fig, pie_figure, bar_chart_sex_fig
+    return bar_chart_all_fig, pie_figure,hdi_bar_figure, bar_chart_sex_fig

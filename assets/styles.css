@@ -20,10 +20,6 @@ body {
 }
 
 
-
-
-
-
 .myButton {
 	background-color:#454653;
 	border-radius:17px;
@@ -44,5 +40,20 @@ body {
 }
 .myButton:active {
 	position:relative;
-	top:1px;
+
+}
+
+.myButtonPressed {
+	background-color:#ffffff;
+	border-radius:17px;
+ 	border:1px solid #ffffff; 
+	display:inline-block;
+	cursor:pointer;
+	color:#454653;
+	font-family:Arial;
+	font-size:20px;
+	padding:17px 32px;
+	text-decoration:none;
+    margin-right: 20px;
+    margin-left: 20px;
 }

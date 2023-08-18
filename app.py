@@ -6,16 +6,17 @@ import json
 
 
 # Load the dataset
-df = pd.read_csv('processed_web.csv')
-
+df = pd.read_csv('data/processed_web.csv')
 df_map = df[(df["Age Group"] == "[All]") & (df["Sex"] == "All")]
 
-hdi_df = pd.read_csv('hdi_web.csv')
-
+hdi_df = pd.read_csv('data/hdi_web.csv')
 hdi_map = hdi_df[(hdi_df["Sex"] == "All")]
 
+homocide_df = pd.read_csv('data/homocide_web.csv')
+homocide_map = homocide_df[(homocide_df["Sex"] == "All")]
+
 # Open the GeoJSON file and load it into a Python dictionary
-with open('map.geo.json', 'r', encoding='utf-8') as f:
+with open('assets/map.geo.json', 'r', encoding='utf-8') as f:
     map_geojson = json.load(f)
 
 # Create the Dash app
