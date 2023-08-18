@@ -20,7 +20,7 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
         updatemode='drag',
         included = False
     ),
-    html.Div(children = [
+
     html.Div(style={'width' : "50%",'marginBottom': '10px','display': 'inline-block', 'alignItems': 'center', 'textAlign': 'center'}, children = [
     html.H2('Select Countries (optional: if no countries are selected all available data is displayed)', style={'fontSize': '20px','margin':'0','textAlign': 'center','padding': '5px'}),
     dcc.Dropdown(
@@ -37,8 +37,7 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
         options=[{'label': i, 'value': i} for i in ['Number', 'Death rate per 100 000 population']],
         value='Number',
         style={'display': 'inline-block', "width" : '50%', 'margin':'0', 'textAlign': 'center'}
-    )
-    ]),
+    ),
 
     dcc.Graph(id='map', config={"displayModeBar" : False}),
 

@@ -1,4 +1,4 @@
-Iso3_code,Country,Region,Indicator,Sex,Year,Counts,"Rate per 100,000 population"
+Iso3_code,Country,Region,Indicator,Sex,Year,Counts,Homocide rate per 100 000 population
 ABW,Aruba,Americas,homocide,Female,1999,1,2.22
 ABW,Aruba,Americas,homocide,Female,2001,2,4.24
 ABW,Aruba,Americas,homocide,Female,2002,1,2.09
@@ -2280,57 +2280,57 @@ FRA,France,Europe,homocide,All,2019,753,1.17
 FSM,Micronesia (Federated States of),Oceania,homocide,Female,2019,1,1.81
 FSM,Micronesia (Federated States of),Oceania,homocide,Male,2019,0,0.0
 FSM,Micronesia (Federated States of),Oceania,homocide,All,2019,1,0.9
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2005,301,0.98
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2006,325,1.05
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2007,337,1.08
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2008,293,0.93
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2009,225,0.71
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2010,282,0.88
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2011,194,0.6
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2012,236,0.73
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2013,225,0.69
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2014,207,0.63
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2015,197,0.6
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2016,203,0.61
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2017,250,0.75
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2018,261,0.78
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Female,2019,203,0.6
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2005,532,1.8
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2006,534,1.8
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2007,535,1.78
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2008,468,1.55
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2009,480,1.58
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2010,473,1.54
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2011,446,1.44
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2012,390,1.24
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2013,377,1.19
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2014,381,1.2
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2015,454,1.42
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2016,586,1.81
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2017,559,1.72
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2018,493,1.5
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,Male,2019,564,1.71
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,1999,920,1.57
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2000,915,1.55
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2001,966,1.63
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2002,1107,1.87
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2003,926,1.55
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2004,950,1.58
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2005,834,1.38
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2006,860,1.41
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2007,873,1.43
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2008,762,1.23
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2009,706,1.13
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2010,756,1.2
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2011,641,1.01
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2012,627,0.98
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2013,603,0.94
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2014,589,0.91
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2015,652,1.0
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2016,789,1.2
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2017,809,1.22
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2018,755,1.14
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe,homocide,All,2019,768,1.15
+GBR,United Kingdom,Europe,homocide,Female,2005,301,0.98
+GBR,United Kingdom,Europe,homocide,Female,2006,325,1.05
+GBR,United Kingdom,Europe,homocide,Female,2007,337,1.08
+GBR,United Kingdom,Europe,homocide,Female,2008,293,0.93
+GBR,United Kingdom,Europe,homocide,Female,2009,225,0.71
+GBR,United Kingdom,Europe,homocide,Female,2010,282,0.88
+GBR,United Kingdom,Europe,homocide,Female,2011,194,0.6
+GBR,United Kingdom,Europe,homocide,Female,2012,236,0.73
+GBR,United Kingdom,Europe,homocide,Female,2013,225,0.69
+GBR,United Kingdom,Europe,homocide,Female,2014,207,0.63
+GBR,United Kingdom,Europe,homocide,Female,2015,197,0.6
+GBR,United Kingdom,Europe,homocide,Female,2016,203,0.61
+GBR,United Kingdom,Europe,homocide,Female,2017,250,0.75
+GBR,United Kingdom,Europe,homocide,Female,2018,261,0.78
+GBR,United Kingdom,Europe,homocide,Female,2019,203,0.6
+GBR,United Kingdom,Europe,homocide,Male,2005,532,1.8
+GBR,United Kingdom,Europe,homocide,Male,2006,534,1.8
+GBR,United Kingdom,Europe,homocide,Male,2007,535,1.78
+GBR,United Kingdom,Europe,homocide,Male,2008,468,1.55
+GBR,United Kingdom,Europe,homocide,Male,2009,480,1.58
+GBR,United Kingdom,Europe,homocide,Male,2010,473,1.54
+GBR,United Kingdom,Europe,homocide,Male,2011,446,1.44
+GBR,United Kingdom,Europe,homocide,Male,2012,390,1.24
+GBR,United Kingdom,Europe,homocide,Male,2013,377,1.19
+GBR,United Kingdom,Europe,homocide,Male,2014,381,1.2
+GBR,United Kingdom,Europe,homocide,Male,2015,454,1.42
+GBR,United Kingdom,Europe,homocide,Male,2016,586,1.81
+GBR,United Kingdom,Europe,homocide,Male,2017,559,1.72
+GBR,United Kingdom,Europe,homocide,Male,2018,493,1.5
+GBR,United Kingdom,Europe,homocide,Male,2019,564,1.71
+GBR,United Kingdom,Europe,homocide,All,1999,920,1.57
+GBR,United Kingdom,Europe,homocide,All,2000,915,1.55
+GBR,United Kingdom,Europe,homocide,All,2001,966,1.63
+GBR,United Kingdom,Europe,homocide,All,2002,1107,1.87
+GBR,United Kingdom,Europe,homocide,All,2003,926,1.55
+GBR,United Kingdom,Europe,homocide,All,2004,950,1.58
+GBR,United Kingdom,Europe,homocide,All,2005,834,1.38
+GBR,United Kingdom,Europe,homocide,All,2006,860,1.41
+GBR,United Kingdom,Europe,homocide,All,2007,873,1.43
+GBR,United Kingdom,Europe,homocide,All,2008,762,1.23
+GBR,United Kingdom,Europe,homocide,All,2009,706,1.13
+GBR,United Kingdom,Europe,homocide,All,2010,756,1.2
+GBR,United Kingdom,Europe,homocide,All,2011,641,1.01
+GBR,United Kingdom,Europe,homocide,All,2012,627,0.98
+GBR,United Kingdom,Europe,homocide,All,2013,603,0.94
+GBR,United Kingdom,Europe,homocide,All,2014,589,0.91
+GBR,United Kingdom,Europe,homocide,All,2015,652,1.0
+GBR,United Kingdom,Europe,homocide,All,2016,789,1.2
+GBR,United Kingdom,Europe,homocide,All,2017,809,1.22
+GBR,United Kingdom,Europe,homocide,All,2018,755,1.14
+GBR,United Kingdom,Europe,homocide,All,2019,768,1.15
 GEO,Georgia,Asia,homocide,Female,2004,34,1.6
 GEO,Georgia,Asia,homocide,Female,2005,72,3.4
 GEO,Georgia,Asia,homocide,Female,2006,45,2.15
@@ -2390,28 +2390,28 @@ GHA,Ghana,Africa,homocide,All,2018,500,1.62
 GHA,Ghana,Africa,homocide,All,2019,571,1.81
 GIB,Gibraltar,Europe,homocide,All,2009,0,0.0
 GIB,Gibraltar,Europe,homocide,All,2010,1,3.2
-GLP,Guadeloupe,Americas,homocide,Female,2004,9,4.39
-GLP,Guadeloupe,Americas,homocide,Female,2005,1,0.72
-GLP,Guadeloupe,Americas,homocide,Female,2006,6,3.08
-GLP,Guadeloupe,Americas,homocide,Female,2008,8,3.74
-GLP,Guadeloupe,Americas,homocide,Female,2009,5,2.52
-GLP,Guadeloupe,Americas,homocide,Male,2004,16,8.55
-GLP,Guadeloupe,Americas,homocide,Male,2005,21,11.28
-GLP,Guadeloupe,Americas,homocide,Male,2006,17,9.25
-GLP,Guadeloupe,Americas,homocide,Male,2008,24,12.74
-GLP,Guadeloupe,Americas,homocide,Male,2009,30,16.27
-GLP,Guadeloupe,Americas,homocide,All,2004,26,6.36
-GLP,Guadeloupe,Americas,homocide,All,2005,23,5.7
-GLP,Guadeloupe,Americas,homocide,All,2006,24,5.99
-GLP,Guadeloupe,Americas,homocide,All,2007,29,7.22
-GLP,Guadeloupe,Americas,homocide,All,2008,32,7.96
-GLP,Guadeloupe,Americas,homocide,All,2009,36,8.94
-GLP,Guadeloupe,Americas,homocide,All,2011,27,6.7
-GLP,Guadeloupe,Americas,homocide,All,2012,31,7.69
-GLP,Guadeloupe,Americas,homocide,All,2013,35,8.7
-GLP,Guadeloupe,Americas,homocide,All,2014,21,5.24
-GLP,Guadeloupe,Americas,homocide,All,2015,39,9.77
-GLP,Guadeloupe,Americas,homocide,All,2016,23,5.78
+GLP,GLP,Americas,homocide,Female,2004,9,4.39
+GLP,GLP,Americas,homocide,Female,2005,1,0.72
+GLP,GLP,Americas,homocide,Female,2006,6,3.08
+GLP,GLP,Americas,homocide,Female,2008,8,3.74
+GLP,GLP,Americas,homocide,Female,2009,5,2.52
+GLP,GLP,Americas,homocide,Male,2004,16,8.55
+GLP,GLP,Americas,homocide,Male,2005,21,11.28
+GLP,GLP,Americas,homocide,Male,2006,17,9.25
+GLP,GLP,Americas,homocide,Male,2008,24,12.74
+GLP,GLP,Americas,homocide,Male,2009,30,16.27
+GLP,GLP,Americas,homocide,All,2004,26,6.36
+GLP,GLP,Americas,homocide,All,2005,23,5.7
+GLP,GLP,Americas,homocide,All,2006,24,5.99
+GLP,GLP,Americas,homocide,All,2007,29,7.22
+GLP,GLP,Americas,homocide,All,2008,32,7.96
+GLP,GLP,Americas,homocide,All,2009,36,8.94
+GLP,GLP,Americas,homocide,All,2011,27,6.7
+GLP,GLP,Americas,homocide,All,2012,31,7.69
+GLP,GLP,Americas,homocide,All,2013,35,8.7
+GLP,GLP,Americas,homocide,All,2014,21,5.24
+GLP,GLP,Americas,homocide,All,2015,39,9.77
+GLP,GLP,Americas,homocide,All,2016,23,5.78
 GNB,Guinea-Bissau,Africa,homocide,All,2016,64,3.49
 GNB,Guinea-Bissau,Africa,homocide,All,2017,21,1.12
 GRC,Greece,Europe,homocide,Female,1999,40,0.73
@@ -2588,22 +2588,22 @@ GTM,Guatemala,Americas,homocide,All,2014,5253,33.43
 GTM,Guatemala,Americas,homocide,All,2017,5435,32.78
 GTM,Guatemala,Americas,homocide,All,2018,4869,28.9
 GTM,Guatemala,Americas,homocide,All,2019,4387,25.65
-GUF,French Guiana,Americas,homocide,Female,2006,3,3.34
-GUF,French Guiana,Americas,homocide,Female,2007,1,1.63
-GUF,French Guiana,Americas,homocide,Female,2008,1,1.26
-GUF,French Guiana,Americas,homocide,Female,2009,5,4.84
-GUF,French Guiana,Americas,homocide,Male,2006,38,37.39
-GUF,French Guiana,Americas,homocide,Male,2007,26,24.83
-GUF,French Guiana,Americas,homocide,Male,2008,30,28.24
-GUF,French Guiana,Americas,homocide,Male,2009,24,22.13
-GUF,French Guiana,Americas,homocide,All,2004,58,29.94
-GUF,French Guiana,Americas,homocide,All,2005,45,22.36
-GUF,French Guiana,Americas,homocide,All,2006,42,20.2
-GUF,French Guiana,Americas,homocide,All,2007,28,13.13
-GUF,French Guiana,Americas,homocide,All,2008,32,14.64
-GUF,French Guiana,Americas,homocide,All,2009,30,13.42
-GUF,French Guiana,Americas,homocide,All,2018,35,13.0
-GUF,French Guiana,Americas,homocide,All,2019,37,13.3
+GUF,GUF,Americas,homocide,Female,2006,3,3.34
+GUF,GUF,Americas,homocide,Female,2007,1,1.63
+GUF,GUF,Americas,homocide,Female,2008,1,1.26
+GUF,GUF,Americas,homocide,Female,2009,5,4.84
+GUF,GUF,Americas,homocide,Male,2006,38,37.39
+GUF,GUF,Americas,homocide,Male,2007,26,24.83
+GUF,GUF,Americas,homocide,Male,2008,30,28.24
+GUF,GUF,Americas,homocide,Male,2009,24,22.13
+GUF,GUF,Americas,homocide,All,2004,58,29.94
+GUF,GUF,Americas,homocide,All,2005,45,22.36
+GUF,GUF,Americas,homocide,All,2006,42,20.2
+GUF,GUF,Americas,homocide,All,2007,28,13.13
+GUF,GUF,Americas,homocide,All,2008,32,14.64
+GUF,GUF,Americas,homocide,All,2009,30,13.42
+GUF,GUF,Americas,homocide,All,2018,35,13.0
+GUF,GUF,Americas,homocide,All,2019,37,13.3
 GUM,Guam,Oceania,homocide,All,2000,2,1.25
 GUM,Guam,Oceania,homocide,All,2001,8,4.95
 GUM,Guam,Oceania,homocide,All,2002,2,1.23
@@ -2666,61 +2666,61 @@ GUY,Guyana,Americas,homocide,All,2016,142,18.71
 GUY,Guyana,Americas,homocide,All,2017,115,15.07
 GUY,Guyana,Americas,homocide,All,2018,111,14.13
 GUY,Guyana,Americas,homocide,All,2019,136,17.03
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2003,22,0.62
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2004,20,0.56
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2005,13,0.36
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2006,18,0.5
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2007,11,0.3
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2008,25,0.68
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2009,25,0.67
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2010,19,0.5
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2011,9,0.24
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2012,12,0.31
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2013,37,0.95
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2014,13,0.33
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2015,9,0.23
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2016,11,0.28
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2017,15,0.37
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2018,16,0.4
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Female,2019,13,0.32
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2003,30,0.9
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2004,25,0.75
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2005,21,0.63
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2006,17,0.51
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2007,7,0.21
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2008,11,0.33
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2009,22,0.66
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2010,16,0.48
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2011,8,0.24
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2012,15,0.44
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2013,25,0.74
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2014,14,0.41
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2015,13,0.38
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2016,17,0.49
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2017,9,0.26
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2018,32,0.93
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,Male,2019,11,0.32
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,1999,63,0.95
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2000,43,0.64
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2001,66,0.97
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2002,69,1.01
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2003,52,0.76
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2004,45,0.65
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2005,34,0.49
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2006,35,0.5
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2007,18,0.26
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2008,36,0.51
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2009,47,0.66
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2010,35,0.49
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2011,17,0.24
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2012,27,0.37
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2013,62,0.85
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2014,27,0.37
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2015,22,0.3
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2016,28,0.38
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2017,24,0.32
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2018,48,0.64
-HKG,"China, Hong Kong Special Administrative Region",Asia,homocide,All,2019,24,0.32
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2003,22,0.62
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2004,20,0.56
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2005,13,0.36
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2006,18,0.5
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2007,11,0.3
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2008,25,0.68
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2009,25,0.67
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2010,19,0.5
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2011,9,0.24
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2012,12,0.31
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2013,37,0.95
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2014,13,0.33
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2015,9,0.23
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2016,11,0.28
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2017,15,0.37
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2018,16,0.4
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Female,2019,13,0.32
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2003,30,0.9
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2004,25,0.75
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2005,21,0.63
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2006,17,0.51
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2007,7,0.21
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2008,11,0.33
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2009,22,0.66
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2010,16,0.48
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2011,8,0.24
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2012,15,0.44
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2013,25,0.74
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2014,14,0.41
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2015,13,0.38
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2016,17,0.49
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2017,9,0.26
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2018,32,0.93
+HKG,"Hong Kong, China (SAR)",Asia,homocide,Male,2019,11,0.32
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,1999,63,0.95
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2000,43,0.64
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2001,66,0.97
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2002,69,1.01
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2003,52,0.76
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2004,45,0.65
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2005,34,0.49
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2006,35,0.5
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2007,18,0.26
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2008,36,0.51
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2009,47,0.66
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2010,35,0.49
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2011,17,0.24
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2012,27,0.37
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2013,62,0.85
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2014,27,0.37
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2015,22,0.3
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2016,28,0.38
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2017,24,0.32
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2018,48,0.64
+HKG,"Hong Kong, China (SAR)",Asia,homocide,All,2019,24,0.32
 HND,Honduras,Americas,homocide,Female,2006,209,5.48
 HND,Honduras,Americas,homocide,Female,2007,324,8.28
 HND,Honduras,Americas,homocide,Female,2008,311,7.79
@@ -3514,45 +3514,45 @@ KNA,Saint Kitts and Nevis,Americas,homocide,All,2016,30,62.78
 KNA,Saint Kitts and Nevis,Americas,homocide,All,2017,23,48.13
 KNA,Saint Kitts and Nevis,Americas,homocide,All,2018,23,48.16
 KNA,Saint Kitts and Nevis,Americas,homocide,All,2019,12,25.15
-KOR,Republic of Korea,Asia,homocide,Female,2011,217,0.88
-KOR,Republic of Korea,Asia,homocide,Female,2012,219,0.88
-KOR,Republic of Korea,Asia,homocide,Female,2013,182,0.73
-KOR,Republic of Korea,Asia,homocide,Female,2014,193,0.76
-KOR,Republic of Korea,Asia,homocide,Female,2015,198,0.78
-KOR,Republic of Korea,Asia,homocide,Female,2016,193,0.75
-KOR,Republic of Korea,Asia,homocide,Female,2017,153,0.59
-KOR,Republic of Korea,Asia,homocide,Female,2018,154,0.6
-KOR,Republic of Korea,Asia,homocide,Female,2019,154,0.59
-KOR,Republic of Korea,Asia,homocide,Male,2011,185,0.76
-KOR,Republic of Korea,Asia,homocide,Male,2012,216,0.87
-KOR,Republic of Korea,Asia,homocide,Male,2013,170,0.68
-KOR,Republic of Korea,Asia,homocide,Male,2014,184,0.73
-KOR,Republic of Korea,Asia,homocide,Male,2015,177,0.69
-KOR,Republic of Korea,Asia,homocide,Male,2016,162,0.63
-KOR,Republic of Korea,Asia,homocide,Male,2017,147,0.57
-KOR,Republic of Korea,Asia,homocide,Male,2018,152,0.59
-KOR,Republic of Korea,Asia,homocide,Male,2019,138,0.53
-KOR,Republic of Korea,Asia,homocide,All,1999,384,0.83
-KOR,Republic of Korea,Asia,homocide,All,2000,369,0.79
-KOR,Republic of Korea,Asia,homocide,All,2001,407,0.87
-KOR,Republic of Korea,Asia,homocide,All,2002,370,0.78
-KOR,Republic of Korea,Asia,homocide,All,2003,386,0.81
-KOR,Republic of Korea,Asia,homocide,All,2004,419,0.88
-KOR,Republic of Korea,Asia,homocide,All,2005,411,0.86
-KOR,Republic of Korea,Asia,homocide,All,2006,415,0.87
-KOR,Republic of Korea,Asia,homocide,All,2007,430,0.89
-KOR,Republic of Korea,Asia,homocide,All,2008,429,0.89
-KOR,Republic of Korea,Asia,homocide,All,2009,532,1.1
-KOR,Republic of Korea,Asia,homocide,All,2010,484,0.99
-KOR,Republic of Korea,Asia,homocide,All,2011,403,0.82
-KOR,Republic of Korea,Asia,homocide,All,2012,435,0.88
-KOR,Republic of Korea,Asia,homocide,All,2013,352,0.7
-KOR,Republic of Korea,Asia,homocide,All,2014,377,0.75
-KOR,Republic of Korea,Asia,homocide,All,2015,375,0.74
-KOR,Republic of Korea,Asia,homocide,All,2016,356,0.69
-KOR,Republic of Korea,Asia,homocide,All,2017,301,0.58
-KOR,Republic of Korea,Asia,homocide,All,2018,309,0.6
-KOR,Republic of Korea,Asia,homocide,All,2019,297,0.57
+KOR,Korea (Republic of),Asia,homocide,Female,2011,217,0.88
+KOR,Korea (Republic of),Asia,homocide,Female,2012,219,0.88
+KOR,Korea (Republic of),Asia,homocide,Female,2013,182,0.73
+KOR,Korea (Republic of),Asia,homocide,Female,2014,193,0.76
+KOR,Korea (Republic of),Asia,homocide,Female,2015,198,0.78
+KOR,Korea (Republic of),Asia,homocide,Female,2016,193,0.75
+KOR,Korea (Republic of),Asia,homocide,Female,2017,153,0.59
+KOR,Korea (Republic of),Asia,homocide,Female,2018,154,0.6
+KOR,Korea (Republic of),Asia,homocide,Female,2019,154,0.59
+KOR,Korea (Republic of),Asia,homocide,Male,2011,185,0.76
+KOR,Korea (Republic of),Asia,homocide,Male,2012,216,0.87
+KOR,Korea (Republic of),Asia,homocide,Male,2013,170,0.68
+KOR,Korea (Republic of),Asia,homocide,Male,2014,184,0.73
+KOR,Korea (Republic of),Asia,homocide,Male,2015,177,0.69
+KOR,Korea (Republic of),Asia,homocide,Male,2016,162,0.63
+KOR,Korea (Republic of),Asia,homocide,Male,2017,147,0.57
+KOR,Korea (Republic of),Asia,homocide,Male,2018,152,0.59
+KOR,Korea (Republic of),Asia,homocide,Male,2019,138,0.53
+KOR,Korea (Republic of),Asia,homocide,All,1999,384,0.83
+KOR,Korea (Republic of),Asia,homocide,All,2000,369,0.79
+KOR,Korea (Republic of),Asia,homocide,All,2001,407,0.87
+KOR,Korea (Republic of),Asia,homocide,All,2002,370,0.78
+KOR,Korea (Republic of),Asia,homocide,All,2003,386,0.81
+KOR,Korea (Republic of),Asia,homocide,All,2004,419,0.88
+KOR,Korea (Republic of),Asia,homocide,All,2005,411,0.86
+KOR,Korea (Republic of),Asia,homocide,All,2006,415,0.87
+KOR,Korea (Republic of),Asia,homocide,All,2007,430,0.89
+KOR,Korea (Republic of),Asia,homocide,All,2008,429,0.89
+KOR,Korea (Republic of),Asia,homocide,All,2009,532,1.1
+KOR,Korea (Republic of),Asia,homocide,All,2010,484,0.99
+KOR,Korea (Republic of),Asia,homocide,All,2011,403,0.82
+KOR,Korea (Republic of),Asia,homocide,All,2012,435,0.88
+KOR,Korea (Republic of),Asia,homocide,All,2013,352,0.7
+KOR,Korea (Republic of),Asia,homocide,All,2014,377,0.75
+KOR,Korea (Republic of),Asia,homocide,All,2015,375,0.74
+KOR,Korea (Republic of),Asia,homocide,All,2016,356,0.69
+KOR,Korea (Republic of),Asia,homocide,All,2017,301,0.58
+KOR,Korea (Republic of),Asia,homocide,All,2018,309,0.6
+KOR,Korea (Republic of),Asia,homocide,All,2019,297,0.57
 KWT,Kuwait,Asia,homocide,Female,2003,5,0.58
 KWT,Kuwait,Asia,homocide,Female,2004,11,1.25
 KWT,Kuwait,Asia,homocide,Female,2005,16,1.75
@@ -3995,69 +3995,69 @@ MCO,Monaco,Europe,homocide,Male,2015,0,0.0
 MCO,Monaco,Europe,homocide,All,2001,1,3.08
 MCO,Monaco,Europe,homocide,All,2007,0,0.0
 MCO,Monaco,Europe,homocide,All,2008,0,0.0
-MDA,Republic of Moldova,Europe,homocide,Female,1999,98,4.33
-MDA,Republic of Moldova,Europe,homocide,Female,2000,120,5.37
-MDA,Republic of Moldova,Europe,homocide,Female,2001,120,5.44
-MDA,Republic of Moldova,Europe,homocide,Female,2002,126,5.8
-MDA,Republic of Moldova,Europe,homocide,Female,2003,107,4.98
-MDA,Republic of Moldova,Europe,homocide,Female,2004,92,4.33
-MDA,Republic of Moldova,Europe,homocide,Female,2005,100,4.75
-MDA,Republic of Moldova,Europe,homocide,Female,2006,76,3.66
-MDA,Republic of Moldova,Europe,homocide,Female,2007,68,3.34
-MDA,Republic of Moldova,Europe,homocide,Female,2008,91,4.54
-MDA,Republic of Moldova,Europe,homocide,Female,2009,71,3.61
-MDA,Republic of Moldova,Europe,homocide,Female,2010,102,5.28
-MDA,Republic of Moldova,Europe,homocide,Female,2011,87,4.61
-MDA,Republic of Moldova,Europe,homocide,Female,2012,63,3.42
-MDA,Republic of Moldova,Europe,homocide,Female,2013,69,3.85
-MDA,Republic of Moldova,Europe,homocide,Female,2014,17,0.97
-MDA,Republic of Moldova,Europe,homocide,Female,2015,47,2.73
-MDA,Republic of Moldova,Europe,homocide,Female,2016,48,2.84
-MDA,Republic of Moldova,Europe,homocide,Female,2017,36,2.16
-MDA,Republic of Moldova,Europe,homocide,Female,2018,41,2.49
-MDA,Republic of Moldova,Europe,homocide,Female,2019,30,1.84
-MDA,Republic of Moldova,Europe,homocide,Male,1999,292,14.37
-MDA,Republic of Moldova,Europe,homocide,Male,2000,312,15.53
-MDA,Republic of Moldova,Europe,homocide,Male,2001,290,14.62
-MDA,Republic of Moldova,Europe,homocide,Male,2002,274,13.97
-MDA,Republic of Moldova,Europe,homocide,Male,2003,211,10.92
-MDA,Republic of Moldova,Europe,homocide,Male,2004,184,9.63
-MDA,Republic of Moldova,Europe,homocide,Male,2005,196,10.34
-MDA,Republic of Moldova,Europe,homocide,Male,2006,186,9.95
-MDA,Republic of Moldova,Europe,homocide,Male,2007,149,8.1
-MDA,Republic of Moldova,Europe,homocide,Male,2008,145,8.02
-MDA,Republic of Moldova,Europe,homocide,Male,2009,175,9.83
-MDA,Republic of Moldova,Europe,homocide,Male,2010,163,9.33
-MDA,Republic of Moldova,Europe,homocide,Male,2011,129,7.55
-MDA,Republic of Moldova,Europe,homocide,Male,2012,166,9.96
-MDA,Republic of Moldova,Europe,homocide,Male,2013,160,9.85
-MDA,Republic of Moldova,Europe,homocide,Male,2014,144,9.07
-MDA,Republic of Moldova,Europe,homocide,Male,2015,142,9.11
-MDA,Republic of Moldova,Europe,homocide,Male,2016,152,9.91
-MDA,Republic of Moldova,Europe,homocide,Male,2017,105,6.94
-MDA,Republic of Moldova,Europe,homocide,Male,2018,125,8.37
-MDA,Republic of Moldova,Europe,homocide,Male,2019,91,6.16
-MDA,Republic of Moldova,Europe,homocide,All,1999,391,9.08
-MDA,Republic of Moldova,Europe,homocide,All,2000,433,10.18
-MDA,Republic of Moldova,Europe,homocide,All,2001,411,9.78
-MDA,Republic of Moldova,Europe,homocide,All,2002,401,9.67
-MDA,Republic of Moldova,Europe,homocide,All,2003,319,7.79
-MDA,Republic of Moldova,Europe,homocide,All,2004,277,6.84
-MDA,Republic of Moldova,Europe,homocide,All,2005,296,7.4
-MDA,Republic of Moldova,Europe,homocide,All,2006,262,6.65
-MDA,Republic of Moldova,Europe,homocide,All,2007,217,5.6
-MDA,Republic of Moldova,Europe,homocide,All,2008,236,6.19
-MDA,Republic of Moldova,Europe,homocide,All,2009,246,6.56
-MDA,Republic of Moldova,Europe,homocide,All,2010,265,7.2
-MDA,Republic of Moldova,Europe,homocide,All,2011,216,6.01
-MDA,Republic of Moldova,Europe,homocide,All,2012,229,6.53
-MDA,Republic of Moldova,Europe,homocide,All,2013,229,6.7
-MDA,Republic of Moldova,Europe,homocide,All,2014,161,4.82
-MDA,Republic of Moldova,Europe,homocide,All,2015,189,5.77
-MDA,Republic of Moldova,Europe,homocide,All,2016,200,6.2
-MDA,Republic of Moldova,Europe,homocide,All,2017,141,4.43
-MDA,Republic of Moldova,Europe,homocide,All,2018,166,5.28
-MDA,Republic of Moldova,Europe,homocide,All,2019,121,3.89
+MDA,Moldova (Republic of),Europe,homocide,Female,1999,98,4.33
+MDA,Moldova (Republic of),Europe,homocide,Female,2000,120,5.37
+MDA,Moldova (Republic of),Europe,homocide,Female,2001,120,5.44
+MDA,Moldova (Republic of),Europe,homocide,Female,2002,126,5.8
+MDA,Moldova (Republic of),Europe,homocide,Female,2003,107,4.98
+MDA,Moldova (Republic of),Europe,homocide,Female,2004,92,4.33
+MDA,Moldova (Republic of),Europe,homocide,Female,2005,100,4.75
+MDA,Moldova (Republic of),Europe,homocide,Female,2006,76,3.66
+MDA,Moldova (Republic of),Europe,homocide,Female,2007,68,3.34
+MDA,Moldova (Republic of),Europe,homocide,Female,2008,91,4.54
+MDA,Moldova (Republic of),Europe,homocide,Female,2009,71,3.61
+MDA,Moldova (Republic of),Europe,homocide,Female,2010,102,5.28
+MDA,Moldova (Republic of),Europe,homocide,Female,2011,87,4.61
+MDA,Moldova (Republic of),Europe,homocide,Female,2012,63,3.42
+MDA,Moldova (Republic of),Europe,homocide,Female,2013,69,3.85
+MDA,Moldova (Republic of),Europe,homocide,Female,2014,17,0.97
+MDA,Moldova (Republic of),Europe,homocide,Female,2015,47,2.73
+MDA,Moldova (Republic of),Europe,homocide,Female,2016,48,2.84
+MDA,Moldova (Republic of),Europe,homocide,Female,2017,36,2.16
+MDA,Moldova (Republic of),Europe,homocide,Female,2018,41,2.49
+MDA,Moldova (Republic of),Europe,homocide,Female,2019,30,1.84
+MDA,Moldova (Republic of),Europe,homocide,Male,1999,292,14.37
+MDA,Moldova (Republic of),Europe,homocide,Male,2000,312,15.53
+MDA,Moldova (Republic of),Europe,homocide,Male,2001,290,14.62
+MDA,Moldova (Republic of),Europe,homocide,Male,2002,274,13.97
+MDA,Moldova (Republic of),Europe,homocide,Male,2003,211,10.92
+MDA,Moldova (Republic of),Europe,homocide,Male,2004,184,9.63
+MDA,Moldova (Republic of),Europe,homocide,Male,2005,196,10.34
+MDA,Moldova (Republic of),Europe,homocide,Male,2006,186,9.95
+MDA,Moldova (Republic of),Europe,homocide,Male,2007,149,8.1
+MDA,Moldova (Republic of),Europe,homocide,Male,2008,145,8.02
+MDA,Moldova (Republic of),Europe,homocide,Male,2009,175,9.83
+MDA,Moldova (Republic of),Europe,homocide,Male,2010,163,9.33
+MDA,Moldova (Republic of),Europe,homocide,Male,2011,129,7.55
+MDA,Moldova (Republic of),Europe,homocide,Male,2012,166,9.96
+MDA,Moldova (Republic of),Europe,homocide,Male,2013,160,9.85
+MDA,Moldova (Republic of),Europe,homocide,Male,2014,144,9.07
+MDA,Moldova (Republic of),Europe,homocide,Male,2015,142,9.11
+MDA,Moldova (Republic of),Europe,homocide,Male,2016,152,9.91
+MDA,Moldova (Republic of),Europe,homocide,Male,2017,105,6.94
+MDA,Moldova (Republic of),Europe,homocide,Male,2018,125,8.37
+MDA,Moldova (Republic of),Europe,homocide,Male,2019,91,6.16
+MDA,Moldova (Republic of),Europe,homocide,All,1999,391,9.08
+MDA,Moldova (Republic of),Europe,homocide,All,2000,433,10.18
+MDA,Moldova (Republic of),Europe,homocide,All,2001,411,9.78
+MDA,Moldova (Republic of),Europe,homocide,All,2002,401,9.67
+MDA,Moldova (Republic of),Europe,homocide,All,2003,319,7.79
+MDA,Moldova (Republic of),Europe,homocide,All,2004,277,6.84
+MDA,Moldova (Republic of),Europe,homocide,All,2005,296,7.4
+MDA,Moldova (Republic of),Europe,homocide,All,2006,262,6.65
+MDA,Moldova (Republic of),Europe,homocide,All,2007,217,5.6
+MDA,Moldova (Republic of),Europe,homocide,All,2008,236,6.19
+MDA,Moldova (Republic of),Europe,homocide,All,2009,246,6.56
+MDA,Moldova (Republic of),Europe,homocide,All,2010,265,7.2
+MDA,Moldova (Republic of),Europe,homocide,All,2011,216,6.01
+MDA,Moldova (Republic of),Europe,homocide,All,2012,229,6.53
+MDA,Moldova (Republic of),Europe,homocide,All,2013,229,6.7
+MDA,Moldova (Republic of),Europe,homocide,All,2014,161,4.82
+MDA,Moldova (Republic of),Europe,homocide,All,2015,189,5.77
+MDA,Moldova (Republic of),Europe,homocide,All,2016,200,6.2
+MDA,Moldova (Republic of),Europe,homocide,All,2017,141,4.43
+MDA,Moldova (Republic of),Europe,homocide,All,2018,166,5.28
+MDA,Moldova (Republic of),Europe,homocide,All,2019,121,3.89
 MDV,Maldives,Asia,homocide,Female,2016,4,2.08
 MDV,Maldives,Asia,homocide,Female,2017,5,2.5
 MDV,Maldives,Asia,homocide,Male,2015,4,1.6
@@ -4421,20 +4421,20 @@ MSR,Montserrat,Americas,homocide,All,2008,1,20.77
 MSR,Montserrat,Americas,homocide,All,2012,1,20.1
 MSR,Montserrat,Americas,homocide,All,2017,0,0.0
 MSR,Montserrat,Americas,homocide,All,2018,0,0.0
-MTQ,Martinique,Americas,homocide,Female,2006,5,2.37
-MTQ,Martinique,Americas,homocide,Female,2007,5,2.59
-MTQ,Martinique,Americas,homocide,Female,2008,4,2.01
-MTQ,Martinique,Americas,homocide,Female,2009,3,1.42
-MTQ,Martinique,Americas,homocide,Male,2006,18,9.75
-MTQ,Martinique,Americas,homocide,Male,2007,17,9.51
-MTQ,Martinique,Americas,homocide,Male,2008,12,6.95
-MTQ,Martinique,Americas,homocide,Male,2009,8,4.38
-MTQ,Martinique,Americas,homocide,All,2004,19,4.63
-MTQ,Martinique,Americas,homocide,All,2005,19,4.75
-MTQ,Martinique,Americas,homocide,All,2006,23,5.81
-MTQ,Martinique,Americas,homocide,All,2007,23,5.81
-MTQ,Martinique,Americas,homocide,All,2008,17,4.3
-MTQ,Martinique,Americas,homocide,All,2009,11,2.79
+MTQ,MTQ,Americas,homocide,Female,2006,5,2.37
+MTQ,MTQ,Americas,homocide,Female,2007,5,2.59
+MTQ,MTQ,Americas,homocide,Female,2008,4,2.01
+MTQ,MTQ,Americas,homocide,Female,2009,3,1.42
+MTQ,MTQ,Americas,homocide,Male,2006,18,9.75
+MTQ,MTQ,Americas,homocide,Male,2007,17,9.51
+MTQ,MTQ,Americas,homocide,Male,2008,12,6.95
+MTQ,MTQ,Americas,homocide,Male,2009,8,4.38
+MTQ,MTQ,Americas,homocide,All,2004,19,4.63
+MTQ,MTQ,Americas,homocide,All,2005,19,4.75
+MTQ,MTQ,Americas,homocide,All,2006,23,5.81
+MTQ,MTQ,Americas,homocide,All,2007,23,5.81
+MTQ,MTQ,Americas,homocide,All,2008,17,4.3
+MTQ,MTQ,Americas,homocide,All,2009,11,2.79
 MUS,Mauritius,Africa,homocide,Female,1999,9,1.62
 MUS,Mauritius,Africa,homocide,Female,2000,11,1.87
 MUS,Mauritius,Africa,homocide,Female,2003,10,1.76
@@ -4520,9 +4520,9 @@ MYS,Malaysia,Asia,homocide,All,2016,456,1.45
 MYS,Malaysia,Asia,homocide,All,2017,379,1.19
 MYS,Malaysia,Asia,homocide,All,2018,323,1.0
 MYS,Malaysia,Asia,homocide,All,2019,310,0.95
-MYT,Mayotte,Africa,homocide,All,2007,27,13.8
-MYT,Mayotte,Africa,homocide,All,2008,5,2.49
-MYT,Mayotte,Africa,homocide,All,2009,12,5.82
+MYT,MYT,Africa,homocide,All,2007,27,13.8
+MYT,MYT,Africa,homocide,All,2008,5,2.49
+MYT,MYT,Africa,homocide,All,2009,12,5.82
 NAM,Namibia,Africa,homocide,Female,2018,120,9.65
 NAM,Namibia,Africa,homocide,Female,2019,103,8.14
 NAM,Namibia,Africa,homocide,Male,2018,356,30.64
@@ -5047,69 +5047,69 @@ POL,Poland,Europe,homocide,All,2016,260,0.67
 POL,Poland,Europe,homocide,All,2017,287,0.74
 POL,Poland,Europe,homocide,All,2018,273,0.71
 POL,Poland,Europe,homocide,All,2019,253,0.66
-PRI,Puerto Rico,Americas,homocide,Female,1999,56,2.85
-PRI,Puerto Rico,Americas,homocide,Female,2000,74,3.73
-PRI,Puerto Rico,Americas,homocide,Female,2001,69,3.47
-PRI,Puerto Rico,Americas,homocide,Female,2002,63,3.17
-PRI,Puerto Rico,Americas,homocide,Female,2003,59,2.97
-PRI,Puerto Rico,Americas,homocide,Female,2004,68,3.43
-PRI,Puerto Rico,Americas,homocide,Female,2005,66,3.34
-PRI,Puerto Rico,Americas,homocide,Female,2006,45,2.28
-PRI,Puerto Rico,Americas,homocide,Female,2007,50,2.55
-PRI,Puerto Rico,Americas,homocide,Female,2008,64,3.27
-PRI,Puerto Rico,Americas,homocide,Female,2009,56,2.88
-PRI,Puerto Rico,Americas,homocide,Female,2010,64,3.3
-PRI,Puerto Rico,Americas,homocide,Female,2011,82,4.26
-PRI,Puerto Rico,Americas,homocide,Female,2012,83,4.35
-PRI,Puerto Rico,Americas,homocide,Female,2013,53,2.81
-PRI,Puerto Rico,Americas,homocide,Female,2014,52,2.8
-PRI,Puerto Rico,Americas,homocide,Female,2015,37,2.02
-PRI,Puerto Rico,Americas,homocide,Female,2016,56,3.12
-PRI,Puerto Rico,Americas,homocide,Female,2017,37,2.1
-PRI,Puerto Rico,Americas,homocide,Female,2018,50,2.87
-PRI,Puerto Rico,Americas,homocide,Female,2019,41,2.37
-PRI,Puerto Rico,Americas,homocide,Male,1999,536,29.25
-PRI,Puerto Rico,Americas,homocide,Male,2000,660,35.82
-PRI,Puerto Rico,Americas,homocide,Male,2001,733,39.74
-PRI,Puerto Rico,Americas,homocide,Male,2002,757,41.08
-PRI,Puerto Rico,Americas,homocide,Male,2003,759,41.26
-PRI,Puerto Rico,Americas,homocide,Male,2004,775,42.24
-PRI,Puerto Rico,Americas,homocide,Male,2005,759,41.51
-PRI,Puerto Rico,Americas,homocide,Male,2006,738,40.54
-PRI,Puerto Rico,Americas,homocide,Male,2007,724,39.96
-PRI,Puerto Rico,Americas,homocide,Male,2008,810,44.94
-PRI,Puerto Rico,Americas,homocide,Male,2009,900,50.22
-PRI,Puerto Rico,Americas,homocide,Male,2010,966,54.24
-PRI,Puerto Rico,Americas,homocide,Male,2011,1097,62.08
-PRI,Puerto Rico,Americas,homocide,Male,2012,932,53.27
-PRI,Puerto Rico,Americas,homocide,Male,2013,871,50.41
-PRI,Puerto Rico,Americas,homocide,Male,2014,652,38.36
-PRI,Puerto Rico,Americas,homocide,Male,2015,577,34.59
-PRI,Puerto Rico,Americas,homocide,Male,2016,648,39.63
-PRI,Puerto Rico,Americas,homocide,Male,2017,691,43.15
-PRI,Puerto Rico,Americas,homocide,Male,2018,614,38.96
-PRI,Puerto Rico,Americas,homocide,Male,2019,592,37.93
-PRI,Puerto Rico,Americas,homocide,All,1999,593,15.56
-PRI,Puerto Rico,Americas,homocide,All,2000,734,19.18
-PRI,Puerto Rico,Americas,homocide,All,2001,802,20.93
-PRI,Puerto Rico,Americas,homocide,All,2002,820,21.41
-PRI,Puerto Rico,Americas,homocide,All,2003,818,21.38
-PRI,Puerto Rico,Americas,homocide,All,2004,843,22.09
-PRI,Puerto Rico,Americas,homocide,All,2005,825,21.68
-PRI,Puerto Rico,Americas,homocide,All,2006,783,20.65
-PRI,Puerto Rico,Americas,homocide,All,2007,774,20.5
-PRI,Puerto Rico,Americas,homocide,All,2008,874,23.26
-PRI,Puerto Rico,Americas,homocide,All,2009,956,25.57
-PRI,Puerto Rico,Americas,homocide,All,2010,1030,27.7
-PRI,Puerto Rico,Americas,homocide,All,2011,1179,31.94
-PRI,Puerto Rico,Americas,homocide,All,2012,1015,27.75
-PRI,Puerto Rico,Americas,homocide,All,2013,924,25.56
-PRI,Puerto Rico,Americas,homocide,All,2014,704,19.78
-PRI,Puerto Rico,Americas,homocide,All,2015,614,17.56
-PRI,Puerto Rico,Americas,homocide,All,2016,704,20.51
-PRI,Puerto Rico,Americas,homocide,All,2017,728,21.63
-PRI,Puerto Rico,Americas,homocide,All,2018,664,20.0
-PRI,Puerto Rico,Americas,homocide,All,2019,633,19.22
+PRI,PRI,Americas,homocide,Female,1999,56,2.85
+PRI,PRI,Americas,homocide,Female,2000,74,3.73
+PRI,PRI,Americas,homocide,Female,2001,69,3.47
+PRI,PRI,Americas,homocide,Female,2002,63,3.17
+PRI,PRI,Americas,homocide,Female,2003,59,2.97
+PRI,PRI,Americas,homocide,Female,2004,68,3.43
+PRI,PRI,Americas,homocide,Female,2005,66,3.34
+PRI,PRI,Americas,homocide,Female,2006,45,2.28
+PRI,PRI,Americas,homocide,Female,2007,50,2.55
+PRI,PRI,Americas,homocide,Female,2008,64,3.27
+PRI,PRI,Americas,homocide,Female,2009,56,2.88
+PRI,PRI,Americas,homocide,Female,2010,64,3.3
+PRI,PRI,Americas,homocide,Female,2011,82,4.26
+PRI,PRI,Americas,homocide,Female,2012,83,4.35
+PRI,PRI,Americas,homocide,Female,2013,53,2.81
+PRI,PRI,Americas,homocide,Female,2014,52,2.8
+PRI,PRI,Americas,homocide,Female,2015,37,2.02
+PRI,PRI,Americas,homocide,Female,2016,56,3.12
+PRI,PRI,Americas,homocide,Female,2017,37,2.1
+PRI,PRI,Americas,homocide,Female,2018,50,2.87
+PRI,PRI,Americas,homocide,Female,2019,41,2.37
+PRI,PRI,Americas,homocide,Male,1999,536,29.25
+PRI,PRI,Americas,homocide,Male,2000,660,35.82
+PRI,PRI,Americas,homocide,Male,2001,733,39.74
+PRI,PRI,Americas,homocide,Male,2002,757,41.08
+PRI,PRI,Americas,homocide,Male,2003,759,41.26
+PRI,PRI,Americas,homocide,Male,2004,775,42.24
+PRI,PRI,Americas,homocide,Male,2005,759,41.51
+PRI,PRI,Americas,homocide,Male,2006,738,40.54
+PRI,PRI,Americas,homocide,Male,2007,724,39.96
+PRI,PRI,Americas,homocide,Male,2008,810,44.94
+PRI,PRI,Americas,homocide,Male,2009,900,50.22
+PRI,PRI,Americas,homocide,Male,2010,966,54.24
+PRI,PRI,Americas,homocide,Male,2011,1097,62.08
+PRI,PRI,Americas,homocide,Male,2012,932,53.27
+PRI,PRI,Americas,homocide,Male,2013,871,50.41
+PRI,PRI,Americas,homocide,Male,2014,652,38.36
+PRI,PRI,Americas,homocide,Male,2015,577,34.59
+PRI,PRI,Americas,homocide,Male,2016,648,39.63
+PRI,PRI,Americas,homocide,Male,2017,691,43.15
+PRI,PRI,Americas,homocide,Male,2018,614,38.96
+PRI,PRI,Americas,homocide,Male,2019,592,37.93
+PRI,PRI,Americas,homocide,All,1999,593,15.56
+PRI,PRI,Americas,homocide,All,2000,734,19.18
+PRI,PRI,Americas,homocide,All,2001,802,20.93
+PRI,PRI,Americas,homocide,All,2002,820,21.41
+PRI,PRI,Americas,homocide,All,2003,818,21.38
+PRI,PRI,Americas,homocide,All,2004,843,22.09
+PRI,PRI,Americas,homocide,All,2005,825,21.68
+PRI,PRI,Americas,homocide,All,2006,783,20.65
+PRI,PRI,Americas,homocide,All,2007,774,20.5
+PRI,PRI,Americas,homocide,All,2008,874,23.26
+PRI,PRI,Americas,homocide,All,2009,956,25.57
+PRI,PRI,Americas,homocide,All,2010,1030,27.7
+PRI,PRI,Americas,homocide,All,2011,1179,31.94
+PRI,PRI,Americas,homocide,All,2012,1015,27.75
+PRI,PRI,Americas,homocide,All,2013,924,25.56
+PRI,PRI,Americas,homocide,All,2014,704,19.78
+PRI,PRI,Americas,homocide,All,2015,614,17.56
+PRI,PRI,Americas,homocide,All,2016,704,20.51
+PRI,PRI,Americas,homocide,All,2017,728,21.63
+PRI,PRI,Americas,homocide,All,2018,664,20.0
+PRI,PRI,Americas,homocide,All,2019,633,19.22
 PRT,Portugal,Europe,homocide,Female,1999,33,0.63
 PRT,Portugal,Europe,homocide,Female,2000,35,0.67
 PRT,Portugal,Europe,homocide,Female,2001,25,0.47
@@ -5302,24 +5302,24 @@ QAT,Qatar,Asia,homocide,All,2016,12,0.46
 QAT,Qatar,Asia,homocide,All,2017,12,0.44
 QAT,Qatar,Asia,homocide,All,2018,10,0.36
 QAT,Qatar,Asia,homocide,All,2019,11,0.39
-REU,Réunion,Africa,homocide,Female,2004,10,2.43
-REU,Réunion,Africa,homocide,Female,2005,7,1.71
-REU,Réunion,Africa,homocide,Female,2006,8,1.87
-REU,Réunion,Africa,homocide,Female,2007,8,1.8
-REU,Réunion,Africa,homocide,Female,2008,4,1.0
-REU,Réunion,Africa,homocide,Female,2009,5,1.28
-REU,Réunion,Africa,homocide,Male,2004,12,3.17
-REU,Réunion,Africa,homocide,Male,2005,17,4.38
-REU,Réunion,Africa,homocide,Male,2006,10,2.66
-REU,Réunion,Africa,homocide,Male,2007,16,3.84
-REU,Réunion,Africa,homocide,Male,2008,13,3.2
-REU,Réunion,Africa,homocide,Male,2009,9,2.15
-REU,Réunion,Africa,homocide,All,2004,23,2.79
-REU,Réunion,Africa,homocide,All,2005,25,3.0
-REU,Réunion,Africa,homocide,All,2006,19,2.25
-REU,Réunion,Africa,homocide,All,2007,24,2.79
-REU,Réunion,Africa,homocide,All,2008,18,2.06
-REU,Réunion,Africa,homocide,All,2009,15,1.7
+REU,REU,Africa,homocide,Female,2004,10,2.43
+REU,REU,Africa,homocide,Female,2005,7,1.71
+REU,REU,Africa,homocide,Female,2006,8,1.87
+REU,REU,Africa,homocide,Female,2007,8,1.8
+REU,REU,Africa,homocide,Female,2008,4,1.0
+REU,REU,Africa,homocide,Female,2009,5,1.28
+REU,REU,Africa,homocide,Male,2004,12,3.17
+REU,REU,Africa,homocide,Male,2005,17,4.38
+REU,REU,Africa,homocide,Male,2006,10,2.66
+REU,REU,Africa,homocide,Male,2007,16,3.84
+REU,REU,Africa,homocide,Male,2008,13,3.2
+REU,REU,Africa,homocide,Male,2009,9,2.15
+REU,REU,Africa,homocide,All,2004,23,2.79
+REU,REU,Africa,homocide,All,2005,25,3.0
+REU,REU,Africa,homocide,All,2006,19,2.25
+REU,REU,Africa,homocide,All,2007,24,2.79
+REU,REU,Africa,homocide,All,2008,18,2.06
+REU,REU,Africa,homocide,All,2009,15,1.7
 ROU,Romania,Europe,homocide,Female,1999,162,1.43
 ROU,Romania,Europe,homocide,Female,2000,140,1.24
 ROU,Romania,Europe,homocide,Female,2001,177,1.57
@@ -6224,48 +6224,48 @@ TUN,Tunisia,Africa,homocide,All,2009,255,2.36
 TUN,Tunisia,Africa,homocide,All,2010,286,2.63
 TUN,Tunisia,Africa,homocide,All,2012,332,2.97
 TUN,Tunisia,Africa,homocide,All,2019,571,4.74
-TUR,Türkiye,Asia,homocide,Female,2003,588,1.77
-TUR,Türkiye,Asia,homocide,Female,2004,605,1.8
-TUR,Türkiye,Asia,homocide,Female,2005,607,1.78
-TUR,Türkiye,Asia,homocide,Female,2006,550,1.59
-TUR,Türkiye,Asia,homocide,Female,2007,615,1.75
-TUR,Türkiye,Asia,homocide,Female,2008,570,1.61
-TUR,Türkiye,Asia,homocide,Female,2010,634,1.74
-TUR,Türkiye,Asia,homocide,Female,2011,629,1.7
-TUR,Türkiye,Asia,homocide,Female,2012,606,1.62
-TUR,Türkiye,Asia,homocide,Female,2015,412,1.04
-TUR,Türkiye,Asia,homocide,Female,2016,441,1.09
-TUR,Türkiye,Asia,homocide,Female,2017,424,1.04
-TUR,Türkiye,Asia,homocide,Female,2018,399,0.97
-TUR,Türkiye,Asia,homocide,Female,2019,450,1.08
-TUR,Türkiye,Asia,homocide,Male,2003,2248,6.69
-TUR,Türkiye,Asia,homocide,Male,2004,2308,6.78
-TUR,Türkiye,Asia,homocide,Male,2005,2697,7.81
-TUR,Türkiye,Asia,homocide,Male,2006,2617,7.48
-TUR,Türkiye,Asia,homocide,Male,2007,2984,8.43
-TUR,Türkiye,Asia,homocide,Male,2008,2687,7.5
-TUR,Türkiye,Asia,homocide,Male,2010,2430,6.61
-TUR,Türkiye,Asia,homocide,Male,2011,2432,6.53
-TUR,Türkiye,Asia,homocide,Male,2012,2610,6.91
-TUR,Türkiye,Asia,homocide,Male,2015,1818,4.55
-TUR,Türkiye,Asia,homocide,Male,2016,2257,5.55
-TUR,Türkiye,Asia,homocide,Male,2017,2113,5.13
-TUR,Türkiye,Asia,homocide,Male,2018,1760,4.24
-TUR,Türkiye,Asia,homocide,Male,2019,1570,3.75
-TUR,Türkiye,Asia,homocide,All,2003,2837,4.24
-TUR,Türkiye,Asia,homocide,All,2004,2914,4.3
-TUR,Türkiye,Asia,homocide,All,2005,3305,4.81
-TUR,Türkiye,Asia,homocide,All,2006,3168,4.55
-TUR,Türkiye,Asia,homocide,All,2007,3599,5.11
-TUR,Türkiye,Asia,homocide,All,2008,3257,4.57
-TUR,Türkiye,Asia,homocide,All,2010,3064,4.19
-TUR,Türkiye,Asia,homocide,All,2011,3061,4.13
-TUR,Türkiye,Asia,homocide,All,2012,3216,4.27
-TUR,Türkiye,Asia,homocide,All,2015,2235,2.81
-TUR,Türkiye,Asia,homocide,All,2016,2704,3.34
-TUR,Türkiye,Asia,homocide,All,2017,2541,3.1
-TUR,Türkiye,Asia,homocide,All,2018,2161,2.61
-TUR,Türkiye,Asia,homocide,All,2019,2020,2.42
+TUR,Turkey,Asia,homocide,Female,2003,588,1.77
+TUR,Turkey,Asia,homocide,Female,2004,605,1.8
+TUR,Turkey,Asia,homocide,Female,2005,607,1.78
+TUR,Turkey,Asia,homocide,Female,2006,550,1.59
+TUR,Turkey,Asia,homocide,Female,2007,615,1.75
+TUR,Turkey,Asia,homocide,Female,2008,570,1.61
+TUR,Turkey,Asia,homocide,Female,2010,634,1.74
+TUR,Turkey,Asia,homocide,Female,2011,629,1.7
+TUR,Turkey,Asia,homocide,Female,2012,606,1.62
+TUR,Turkey,Asia,homocide,Female,2015,412,1.04
+TUR,Turkey,Asia,homocide,Female,2016,441,1.09
+TUR,Turkey,Asia,homocide,Female,2017,424,1.04
+TUR,Turkey,Asia,homocide,Female,2018,399,0.97
+TUR,Turkey,Asia,homocide,Female,2019,450,1.08
+TUR,Turkey,Asia,homocide,Male,2003,2248,6.69
+TUR,Turkey,Asia,homocide,Male,2004,2308,6.78
+TUR,Turkey,Asia,homocide,Male,2005,2697,7.81
+TUR,Turkey,Asia,homocide,Male,2006,2617,7.48
+TUR,Turkey,Asia,homocide,Male,2007,2984,8.43
+TUR,Turkey,Asia,homocide,Male,2008,2687,7.5
+TUR,Turkey,Asia,homocide,Male,2010,2430,6.61
+TUR,Turkey,Asia,homocide,Male,2011,2432,6.53
+TUR,Turkey,Asia,homocide,Male,2012,2610,6.91
+TUR,Turkey,Asia,homocide,Male,2015,1818,4.55
+TUR,Turkey,Asia,homocide,Male,2016,2257,5.55
+TUR,Turkey,Asia,homocide,Male,2017,2113,5.13
+TUR,Turkey,Asia,homocide,Male,2018,1760,4.24
+TUR,Turkey,Asia,homocide,Male,2019,1570,3.75
+TUR,Turkey,Asia,homocide,All,2003,2837,4.24
+TUR,Turkey,Asia,homocide,All,2004,2914,4.3
+TUR,Turkey,Asia,homocide,All,2005,3305,4.81
+TUR,Turkey,Asia,homocide,All,2006,3168,4.55
+TUR,Turkey,Asia,homocide,All,2007,3599,5.11
+TUR,Turkey,Asia,homocide,All,2008,3257,4.57
+TUR,Turkey,Asia,homocide,All,2010,3064,4.19
+TUR,Turkey,Asia,homocide,All,2011,3061,4.13
+TUR,Turkey,Asia,homocide,All,2012,3216,4.27
+TUR,Turkey,Asia,homocide,All,2015,2235,2.81
+TUR,Turkey,Asia,homocide,All,2016,2704,3.34
+TUR,Turkey,Asia,homocide,All,2017,2541,3.1
+TUR,Turkey,Asia,homocide,All,2018,2161,2.61
+TUR,Turkey,Asia,homocide,All,2019,2020,2.42
 TUV,Tuvalu,Oceania,homocide,All,2002,0,0.0
 TUV,Tuvalu,Oceania,homocide,All,2003,0,0.0
 TUV,Tuvalu,Oceania,homocide,All,2004,0,0.0
@@ -6425,66 +6425,66 @@ URY,Uruguay,Americas,homocide,All,2016,267,7.82
 URY,Uruguay,Americas,homocide,All,2017,283,8.27
 URY,Uruguay,Americas,homocide,All,2018,421,12.28
 URY,Uruguay,Americas,homocide,All,2019,394,11.49
-USA,United States of America,Americas,homocide,Female,1999,3787,2.67
-USA,United States of America,Americas,homocide,Female,2000,3709,2.59
-USA,United States of America,Americas,homocide,Female,2001,4459,3.08
-USA,United States of America,Americas,homocide,Female,2002,3760,2.57
-USA,United States of America,Americas,homocide,Female,2003,3694,2.5
-USA,United States of America,Americas,homocide,Female,2004,3551,2.38
-USA,United States of America,Americas,homocide,Female,2005,3559,2.36
-USA,United States of America,Americas,homocide,Female,2006,3654,2.4
-USA,United States of America,Americas,homocide,Female,2007,3678,2.39
-USA,United States of America,Americas,homocide,Female,2008,3585,2.31
-USA,United States of America,Americas,homocide,Female,2009,3530,2.25
-USA,United States of America,Americas,homocide,Female,2010,3311,2.1
-USA,United States of America,Americas,homocide,Female,2011,3262,2.05
-USA,United States of America,Americas,homocide,Female,2012,3301,2.06
-USA,United States of America,Americas,homocide,Female,2013,3169,1.96
-USA,United States of America,Americas,homocide,Female,2014,3183,1.95
-USA,United States of America,Americas,homocide,Female,2015,3333,2.03
-USA,United States of America,Americas,homocide,Female,2016,3716,2.25
-USA,United States of America,Americas,homocide,Female,2017,3694,2.22
-USA,United States of America,Americas,homocide,Female,2018,3694,2.2
-USA,United States of America,Americas,homocide,Female,2019,3587,2.13
-USA,United States of America,Americas,homocide,Male,1999,11734,8.54
-USA,United States of America,Americas,homocide,Male,2000,11876,8.54
-USA,United States of America,Americas,homocide,Male,2001,14573,10.37
-USA,United States of America,Americas,homocide,Male,2002,12468,8.78
-USA,United States of America,Americas,homocide,Male,2003,12833,8.95
-USA,United States of America,Americas,homocide,Male,2004,12596,8.7
-USA,United States of America,Americas,homocide,Male,2005,13180,9.01
-USA,United States of America,Americas,homocide,Male,2006,13655,9.25
-USA,United States of America,Americas,homocide,Male,2007,13450,9.02
-USA,United States of America,Americas,homocide,Male,2008,12880,8.55
-USA,United States of America,Americas,homocide,Male,2009,11869,7.81
-USA,United States of America,Americas,homocide,Male,2010,11411,7.44
-USA,United States of America,Americas,homocide,Male,2011,11399,7.37
-USA,United States of America,Americas,homocide,Male,2012,11555,7.4
-USA,United States of America,Americas,homocide,Male,2013,11149,7.07
-USA,United States of America,Americas,homocide,Male,2014,10980,6.9
-USA,United States of America,Americas,homocide,Male,2015,12549,7.82
-USA,United States of America,Americas,homocide,Male,2016,13696,8.46
-USA,United States of America,Americas,homocide,Male,2017,13599,8.33
-USA,United States of America,Americas,homocide,Male,2018,12679,7.71
-USA,United States of America,Americas,homocide,Male,2019,13081,7.89
-USA,United States of America,Americas,homocide,All,1999,15522,5.56
-USA,United States of America,Americas,homocide,All,2000,15586,5.52
-USA,United States of America,Americas,homocide,All,2001,19033,6.67
-USA,United States of America,Americas,homocide,All,2002,16229,5.63
-USA,United States of America,Americas,homocide,All,2006,17309,5.77
-USA,United States of America,Americas,homocide,All,2007,17128,5.66
-USA,United States of America,Americas,homocide,All,2008,16465,5.39
-USA,United States of America,Americas,homocide,All,2009,15399,4.99
-USA,United States of America,Americas,homocide,All,2010,14722,4.73
-USA,United States of America,Americas,homocide,All,2011,14661,4.67
-USA,United States of America,Americas,homocide,All,2012,14856,4.69
-USA,United States of America,Americas,homocide,All,2013,14319,4.48
-USA,United States of America,Americas,homocide,All,2014,14164,4.4
-USA,United States of America,Americas,homocide,All,2015,15883,4.89
-USA,United States of America,Americas,homocide,All,2016,17413,5.32
-USA,United States of America,Americas,homocide,All,2017,17294,5.24
-USA,United States of America,Americas,homocide,All,2018,16374,4.93
-USA,United States of America,Americas,homocide,All,2019,16669,4.99
+USA,United States,Americas,homocide,Female,1999,3787,2.67
+USA,United States,Americas,homocide,Female,2000,3709,2.59
+USA,United States,Americas,homocide,Female,2001,4459,3.08
+USA,United States,Americas,homocide,Female,2002,3760,2.57
+USA,United States,Americas,homocide,Female,2003,3694,2.5
+USA,United States,Americas,homocide,Female,2004,3551,2.38
+USA,United States,Americas,homocide,Female,2005,3559,2.36
+USA,United States,Americas,homocide,Female,2006,3654,2.4
+USA,United States,Americas,homocide,Female,2007,3678,2.39
+USA,United States,Americas,homocide,Female,2008,3585,2.31
+USA,United States,Americas,homocide,Female,2009,3530,2.25
+USA,United States,Americas,homocide,Female,2010,3311,2.1
+USA,United States,Americas,homocide,Female,2011,3262,2.05
+USA,United States,Americas,homocide,Female,2012,3301,2.06
+USA,United States,Americas,homocide,Female,2013,3169,1.96
+USA,United States,Americas,homocide,Female,2014,3183,1.95
+USA,United States,Americas,homocide,Female,2015,3333,2.03
+USA,United States,Americas,homocide,Female,2016,3716,2.25
+USA,United States,Americas,homocide,Female,2017,3694,2.22
+USA,United States,Americas,homocide,Female,2018,3694,2.2
+USA,United States,Americas,homocide,Female,2019,3587,2.13
+USA,United States,Americas,homocide,Male,1999,11734,8.54
+USA,United States,Americas,homocide,Male,2000,11876,8.54
+USA,United States,Americas,homocide,Male,2001,14573,10.37
+USA,United States,Americas,homocide,Male,2002,12468,8.78
+USA,United States,Americas,homocide,Male,2003,12833,8.95
+USA,United States,Americas,homocide,Male,2004,12596,8.7
+USA,United States,Americas,homocide,Male,2005,13180,9.01
+USA,United States,Americas,homocide,Male,2006,13655,9.25
+USA,United States,Americas,homocide,Male,2007,13450,9.02
+USA,United States,Americas,homocide,Male,2008,12880,8.55
+USA,United States,Americas,homocide,Male,2009,11869,7.81
+USA,United States,Americas,homocide,Male,2010,11411,7.44
+USA,United States,Americas,homocide,Male,2011,11399,7.37
+USA,United States,Americas,homocide,Male,2012,11555,7.4
+USA,United States,Americas,homocide,Male,2013,11149,7.07
+USA,United States,Americas,homocide,Male,2014,10980,6.9
+USA,United States,Americas,homocide,Male,2015,12549,7.82
+USA,United States,Americas,homocide,Male,2016,13696,8.46
+USA,United States,Americas,homocide,Male,2017,13599,8.33
+USA,United States,Americas,homocide,Male,2018,12679,7.71
+USA,United States,Americas,homocide,Male,2019,13081,7.89
+USA,United States,Americas,homocide,All,1999,15522,5.56
+USA,United States,Americas,homocide,All,2000,15586,5.52
+USA,United States,Americas,homocide,All,2001,19033,6.67
+USA,United States,Americas,homocide,All,2002,16229,5.63
+USA,United States,Americas,homocide,All,2006,17309,5.77
+USA,United States,Americas,homocide,All,2007,17128,5.66
+USA,United States,Americas,homocide,All,2008,16465,5.39
+USA,United States,Americas,homocide,All,2009,15399,4.99
+USA,United States,Americas,homocide,All,2010,14722,4.73
+USA,United States,Americas,homocide,All,2011,14661,4.67
+USA,United States,Americas,homocide,All,2012,14856,4.69
+USA,United States,Americas,homocide,All,2013,14319,4.48
+USA,United States,Americas,homocide,All,2014,14164,4.4
+USA,United States,Americas,homocide,All,2015,15883,4.89
+USA,United States,Americas,homocide,All,2016,17413,5.32
+USA,United States,Americas,homocide,All,2017,17294,5.24
+USA,United States,Americas,homocide,All,2018,16374,4.93
+USA,United States,Americas,homocide,All,2019,16669,4.99
 UZB,Uzbekistan,Asia,homocide,Female,2015,216,1.4
 UZB,Uzbekistan,Asia,homocide,Female,2016,258,1.64
 UZB,Uzbekistan,Asia,homocide,Female,2017,205,1.28
