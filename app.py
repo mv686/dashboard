@@ -12,8 +12,8 @@ df_map = df[(df["Age Group"] == "[All]") & (df["Sex"] == "All")]
 hdi_df = pd.read_csv('data/hdi_web.csv')
 hdi_map = hdi_df[(hdi_df["Sex"] == "All")]
 
-homocide_df = pd.read_csv('data/homocide_web.csv')
-homocide_map = homocide_df[(homocide_df["Sex"] == "All")]
+homicide_df = pd.read_csv('data/homicide_web.csv')
+homicide_map = homicide_df[(homicide_df["Sex"] == "All")]
 
 # Open the GeoJSON file and load it into a Python dictionary
 with open('assets/map.geo.json', 'r', encoding='utf-8') as f:

@@ -2,13 +2,12 @@
 from dash import Dash, html, dcc, Input, Output, dash_table
 import pandas as pd
 import plotly.express as px
-import json
 from app import app,df,df_map,map_geojson
 
 
 # Create a layout for the application
 layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
-    html.H1('This map shows world suicide data', style={'padding': '15px',"backgroundColor" : '#D4DADA','textAlign': 'center', 'margin':'0'}),
+    html.H1('World Suicide Data Map', style={'padding': '15px',"backgroundColor" : '#D4DADA','textAlign': 'center', 'margin':'0'}),
     html.H2('Select Year:', style={'fontSize': '20px', 'textAlign': 'center', 'margin':'0'}),
     dcc.Slider(
         id='year-slider',
@@ -28,7 +27,8 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
     options=[{'label': i, 'value': i} for i in df['Country Name'].unique()],
     multi = True,
     persistence = True,
-    persistence_type = "memory"
+    persistence_type = "memory",
+    style={ "width" : '80%','margin': 'auto', 'textAlign': 'center','alignItems' : 'center'}
     
     )
     ]),

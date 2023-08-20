@@ -2,12 +2,12 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
-from app import app,df,hdi_df,homocide_df
+from app import app,df,hdi_df,homicide_df
 
 
 # Create a layout for the application
 layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
-    html.Label('Select Year:', style={'fontSize': '20px', 'marginBottom': '10px'}),
+    html.H2('Select Year:', style={'fontSize': '20px', 'textAlign': 'center', 'margin':'0', 'paddingTop': '10px'}),
     dcc.Slider(
         id='pie-chart-year-slider',
         min=df['Year'].min(),
@@ -18,7 +18,7 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
         updatemode='drag',
         included = False
     ),
-    html.Label('Select Country', style={'fontSize': '20px'}),
+    html.H2('Select Country:', style={'fontSize': '20px', 'textAlign': 'center', 'margin':'0'}),
     dcc.Dropdown(
     id='pie-chart-country',
     options=[{'label': i, 'value': i} for i in df['Country Name'].unique()],
@@ -26,13 +26,13 @@ layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
     multi = False,
     persistence = True,
     persistence_type = "memory",
-    style={'width' : "50%",'marginBottom': '10px'}
+    style={'width' : "50%",'paddingBottom': '5px','margin': 'auto','marginBottom': '10px','textAlign': 'center','alignItems' : 'center'}
     ),
     dcc.Graph(id='bar-all-chart', config={"displayModeBar" : False}),
     html.Div(children = [
     dcc.Graph(id='pie-chart', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '33%'}),
     dcc.Graph(id='bar-chart-hdi', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '33%'}),
-    dcc.Graph(id='pie-chart-homocide', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '34%'})
+    dcc.Graph(id='pie-chart-homicide', config={"displayModeBar" : False}, style={'display': 'inline-block', "width" : '34%'})
         ]),
         
         dcc.Graph(id='bar-chart', config={"displayModeBar" : False})
@@ -51,7 +51,7 @@ color_mapping = {
     Output('bar-all-chart', 'figure'),
     Output('pie-chart', 'figure'),
     Output('bar-chart-hdi', 'figure'),
-    Output('pie-chart-homocide', 'figure'),
+    Output('pie-chart-homicide', 'figure'),
     Output('bar-chart', 'figure'),
     Input('pie-chart-year-slider', 'value'),
     Input('pie-chart-country', 'value')
@@ -67,7 +67,7 @@ def update_charts(selected_year, selected_country):
 
     dff_hdi = hdi_df[(hdi_df['Year'] == selected_year) & (hdi_df['Country Name'] == selected_country) & (hdi_df["Sex"].isin(sex_list))]
 
-    dff_homocide = homocide_df[(homocide_df['Year'] == selected_year) & (homocide_df['Country'] == selected_country) & (homocide_df["Sex"].isin(sex_list))]
+    dff_homicide = homicide_df[(homicide_df['Year'] == selected_year) & (homicide_df['Country'] == selected_country) & (homicide_df["Sex"].isin(sex_list))]
 
     bar_chart_all_fig = px.bar(dff_bar, x='Age Group', y='Number',color_discrete_sequence=[px.colors.qualitative.Plotly[2]], text_auto=True,
                                category_orders={'Age Group': ['[5-9]', '[10-14]', '[15-19]', '[20-24]',
@@ -138,10 +138,10 @@ def update_charts(selected_year, selected_country):
                                    '[85+]', '[Unknown]']})
 
 
-    pie_figure_homocide = px.pie(dff_homocide, names='Sex', values='Counts',color_discrete_map=color_mapping)
+    pie_figure_homicide = px.pie(dff_homicide, names='Sex', values='Counts',color_discrete_map=color_mapping)
 
-    pie_figure_homocide.update_layout(title={
-    'text': '<b>Homocide victims distribution by Sex</b>',
+    pie_figure_homicide.update_layout(title={
+    'text': '<b>Homicide victims distribution by Sex</b>',
     'y':1,
     'x':0.48,
     'xanchor': 'center',
@@ -154,7 +154,7 @@ def update_charts(selected_year, selected_country):
     
     bar_chart_sex_fig.update_layout(title={
     'text': '<b>Suicide distribution by Age Group and Sex</b>',
-    'y':1,
+    'y':0.9,
     'x':0.48,
     'xanchor': 'center',
     'yanchor': 'top',
@@ -164,4 +164,4 @@ def update_charts(selected_year, selected_country):
         'family': 'Arial, sans-serif'
     }},paper_bgcolor= '#D4DADA', xaxis_title_font=dict(size=20),yaxis_title_font=dict(size=20))
 
-    return bar_chart_all_fig, pie_figure,hdi_bar_figure, pie_figure_homocide, bar_chart_sex_fig
+    return bar_chart_all_fig, pie_figure,hdi_bar_figure, pie_figure_homicide, bar_chart_sex_fig

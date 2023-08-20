@@ -8,7 +8,7 @@ from app import app,hdi_df,hdi_map,map_geojson
 
 # Create a layout for the application
 layout = html.Div(style = {"backgroundColor" : '#D4DADA' }, children =[
-    html.H1('This map shows world HDI data', style={'padding': '15px',"backgroundColor" : '#D4DADA','textAlign': 'center', 'margin':'0'}),
+    html.H1('World HDI Data Map', style={'padding': '15px',"backgroundColor" : '#D4DADA','textAlign': 'center', 'margin':'0'}),
     html.H2('Select Year:', style={'fontSize': '20px', 'textAlign': 'center', 'margin':'0'}),
     dcc.Slider(
         id='hdi-year-slider',

@@ -5,7 +5,8 @@ import map_page
 import graph_page
 import chart_page
 import hdi_map
-import homocide_map
+import homicide_map
+import about
 
 # Main layout
 app.layout = html.Div(children = [
@@ -22,15 +23,18 @@ app.layout = html.Div(children = [
             href = "/hdi"),
 
         dcc.Link(
-        html.Button('Homocide Map', id='homocide-button', className='myButton'), 
-            href = "/homocide"),
+        html.Button('Homicide Map', id='homicide-button', className='myButton'), 
+            href = "/homicide"),
 
         dcc.Link(
         html.Button('Graphs', id='graph-button', className='myButton'), 
             href = "/graph"),
         dcc.Link(
         html.Button('Charts', id='chart-button', className='myButton'), 
-            href = "/chart")
+            href = "/chart"),
+        dcc.Link(
+        html.Button('About', id='about-button', className='myButton'), 
+            href = "/about")
 
     ], style={'display': 'inline-block', "width" : '75%', 'alignItems': 'center','justifyContent': 'center', 'textAlign': 'center',})
     ]),
@@ -46,9 +50,10 @@ app.layout = html.Div(children = [
 @app.callback(Output('page-content', 'children'),
               Output('map-button', 'className'),
               Output('hdi-button', 'className'),
-              Output('homocide-button', 'className'),
+              Output('homicide-button', 'className'),
               Output('graph-button', 'className'),
               Output('chart-button', 'className'),
+              Output('about-button', 'className'),
               Input('url', 'pathname')
               )
 
@@ -58,23 +63,27 @@ def display_page(pathname):
     graph_button_class = 'myButton'
     chart_button_class = 'myButton'
     hdi_button_class = 'myButton'
-    homocide_button_class = 'myButton'
+    homicide_button_class = 'myButton'
+    about_button_class = 'myButton'
 
     if pathname == '/graph':
         graph_button_class = 'myButtonPressed'
-        return graph_page.layout, map_button_class, hdi_button_class, homocide_button_class, graph_button_class, chart_button_class
+        return graph_page.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
     elif pathname == '/chart':
         chart_button_class = 'myButtonPressed'
-        return chart_page.layout, map_button_class, hdi_button_class, homocide_button_class, graph_button_class, chart_button_class
+        return chart_page.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
     elif pathname == '/hdi':
         hdi_button_class = 'myButtonPressed'
-        return hdi_map.layout, map_button_class, hdi_button_class, homocide_button_class, graph_button_class, chart_button_class
-    elif pathname == '/homocide':
-        homocide_button_class = 'myButtonPressed'
-        return homocide_map.layout, map_button_class, hdi_button_class, homocide_button_class, graph_button_class, chart_button_class
+        return hdi_map.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
+    elif pathname == '/homicide':
+        homicide_button_class = 'myButtonPressed'
+        return homicide_map.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
+    elif pathname == '/map':
+        map_button_class = 'myButtonPressed'
+        return map_page.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
     else:
-        map_button_class = 'myButtonPressed'  # This makes map page default
-        return map_page.layout, map_button_class, hdi_button_class, homocide_button_class, graph_button_class, chart_button_class
+        about_button_class = 'myButtonPressed'  # This makes map page default
+        return about.layout, map_button_class, hdi_button_class, homicide_button_class, graph_button_class, chart_button_class, about_button_class
     
     
 
