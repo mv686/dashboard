@@ -2,7 +2,6 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
-import plotly.graph_objects as go
 from app import app,df_map, hdi_map, homicide_map
 
 df_map = df_map.sort_values(["Country Name", "Year"], ascending=[True,True])

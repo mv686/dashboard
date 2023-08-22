@@ -36,7 +36,7 @@ app.layout = html.Div(children = [
         html.Button('About', id='about-button', className='myButton'), 
             href = "/about")
 
-    ], style={'display': 'inline-block', "width" : '75%', 'alignItems': 'center','justifyContent': 'center', 'textAlign': 'center',})
+    ], style={'display': 'inline-block', "width" : '75%', 'textAlign': 'right',})
     ]),
 
     dcc.Location(id='url', refresh=True),
@@ -88,4 +88,4 @@ def display_page(pathname):
     
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)

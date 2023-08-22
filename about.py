@@ -40,7 +40,7 @@ about_content = html.Div(
         html.P("All datasets are open-source and are not used in commercial application.", style = {"fontSize" : "20px"}),
         html.Div([
             html.P(html.Strong("WHO Mortality Dataset:"), style={"fontSize": "24px"}),
-            html.P("This dataset provides information about suicide rates across different countries, genders, and age groups.", style={"fontSize": "20px", "marginTop": "-5px"}),
+            html.P("This dataset provides information about mortalities across different countries, genders, and age groups.", style={"fontSize": "20px", "marginTop": "-5px"}),
             html.P(["Available at: ", html.A("WHO Mortality datasets", href="https://www.who.int/data/data-collection-tools/who-mortality-database", target="_blank", style={"fontSize": "20px", "marginBottom": "10px"})]),
             
             html.P(html.Strong("HDI Dataset:"), style={"fontSize": "24px"}),
@@ -53,7 +53,7 @@ about_content = html.Div(
             ]),
         html.H2("Source Code"),
         html.P([
-            "Source Code for this webpage is available on ",
+            "Source Code for this website is available on ",
             html.A("GitHub", href="https://www.linkedin.com/in/mark-varnaliy-5917251b8/", target = "_blank", style = {"fontSize" : "20px"})
         ], style = {"fontSize" : "20px"})
     ]

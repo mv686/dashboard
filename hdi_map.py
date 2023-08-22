@@ -2,7 +2,6 @@
 from dash import Dash, html, dcc, Input, Output, dash_table
 import pandas as pd
 import plotly.express as px
-import json
 from app import app,hdi_df,hdi_map,map_geojson
 
 
