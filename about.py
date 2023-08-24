@@ -37,7 +37,7 @@ about_content = html.Div(
 
         html.P("6. About Page: This page offers information about the project, data sources, and sorce code link.", style={"fontSize": "20px", "lineHeight": "1.2px"}),
         html.H2("Data Sources"),
-        html.P("All datasets are open-source and are not used in commercial application.", style = {"fontSize" : "20px"}),
+        html.P("All datasets are open-source and used for educational purposes only.", style = {"fontSize" : "20px"}),
         html.Div([
             html.P(html.Strong("WHO Mortality Dataset:"), style={"fontSize": "24px"}),
             html.P("This dataset provides information about mortalities across different countries, genders, and age groups.", style={"fontSize": "20px", "marginTop": "-5px"}),

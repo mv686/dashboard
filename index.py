@@ -11,7 +11,7 @@ import about
 # Main layout
 app.layout = html.Div(children = [
     html.Div(className = "bgcolors",children = [
-    html.H1('INTERACTIVE DASHBOARD', style={ 'color':'#ffffff', 'display': 'inline-block', "width" : '25%', 'alignItems': 'center', 'textAlign': 'center',}),
+    html.H1('INTERACTIVE DASHBOARD', style={ 'color':'#ffffff', 'display': 'inline-block', "width" : '30%', 'textAlign': 'right',}),
 
     html.Div([
         dcc.Link(
@@ -36,7 +36,7 @@ app.layout = html.Div(children = [
         html.Button('About', id='about-button', className='myButton'), 
             href = "/about")
 
-    ], style={'display': 'inline-block', "width" : '75%', 'textAlign': 'right',})
+    ], style={'display': 'inline-block', "width" : '70%', 'textAlign': 'right',})
     ]),
 
     dcc.Location(id='url', refresh=True),
