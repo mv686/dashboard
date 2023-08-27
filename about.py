@@ -54,7 +54,7 @@ about_content = html.Div(
         html.H2("Source Code"),
         html.P([
             "Source Code for this website is available on ",
-            html.A("GitHub", href="https://www.linkedin.com/in/mark-varnaliy-5917251b8/", target = "_blank", style = {"fontSize" : "20px"})
+            html.A("GitHub", href="https://github.com/mv686/dashboard", target = "_blank", style = {"fontSize" : "20px"})
         ], style = {"fontSize" : "20px"})
     ]
 )
